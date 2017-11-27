@@ -34,7 +34,7 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 
 red_turtle = rg.SimpleTurtle('turtle')
-red_turtle.pen = rg.Pen('red',5)
+red_turtle.pen = rg.Pen('red', 5)
 red_turtle.speed = 15
 
 size = 30
@@ -50,11 +50,11 @@ for k in range(10):
     size = size - 1
 
 green_turtle = rg.SimpleTurtle('turtle')
-green_turtle.pen = rg.Pen('green',3)
+green_turtle.pen = rg.Pen('green', 3)
 green_turtle.speed = 10
 
 for x in range(20):
-    green_turtle.draw_regular_polygon(6,size)
+    green_turtle.draw_regular_polygon(6, size)
 
     green_turtle.pen_up()
     green_turtle.right(45)
